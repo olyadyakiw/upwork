@@ -1,0 +1,63 @@
+.newlyEegisteredCompanies {
+   display: flex;
+   flex-wrap: wrap;
+   overflow: hidden;
+   overflow-x: auto;
+   height: 165px;
+   justify-content: space-evenly;
+   padding: 1px;
+   &__title {
+      padding:30px 0 10px 0;
+      color: #999;
+   }
+   &.no-padding {
+      padding:0;
+   }
+   &.no-top-padding {
+    padding-top:0;
+   }
+   h2 {
+      font: normal 22px Roboto;
+	   margin:0;
+   }
+   &__item {
+      box-sizing: border-box;
+      padding: 15px;
+      background: #fff;
+      cursor: pointer;
+      display: inline-flex;
+      justify-content: start;
+      flex-direction: column;
+      width: 120px;
+      border-radius: 15px;
+      align-items: center;
+      margin: 5px;
+      vertical-align: top;
+   }
+   &__item-img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background-position: 50% 50%;
+      border: 1px solid rgba(0,0,0,.1);
+      background-size: 110%;
+      background-repeat: no-repeat;
+      margin-bottom: 15px;
+   }
+   &__item-text {
+      font-size: 16px;
+      font-weight: 500;
+      color: #333;
+      word-break: break-word;
+      text-overflow: ellipsis;
+      height: 40px;
+      display: flex;
+      overflow: hidden;
+      text-align: center;
+   }
+}
+
+
+
+
+
